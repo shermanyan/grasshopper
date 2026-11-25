@@ -6,8 +6,15 @@ A Grasshopper definition that generates a complete plywood cabinet, carcass, dra
 few dimensions. Every part is generated flat and ready to cut on a CNC router, with the joinery, clearances and tooling
 built in.
 
+![Grasshopper definition](images/canvas.png)
+
 ![Cabinet](images/cabinet-closed.png)
 ![Drawers](images/cabinet-drawers.png)
+
+**Web version:** Will Rollins built a web version from this script:
+[Cabinet Maker](https://will.100xbtr.com/cabinet/). It works in inches and adds sheet layouts, a cut list and g-code.
+
+![Cabinet Maker](images/cabinet-maker.png)
 
 ## Requirements
 
@@ -60,7 +67,12 @@ dado.
 
 Doors get a swing style (`door swing style`: left, right or double). The script places the hinge cup pockets and pilot
 holes on the door and the matching pilot holes on the carcass (`hinge holes on front`, `hinge holes on carcass`,
-`cut pocket and holes`), so they line up when it is assembled. It also adds shelf pin holes, drawer slide pilot holes
+`cut pocket and holes`), so they line up when it is assembled.
+
+![Doors and drawer](images/doors-and-drawer.png)
+![Hinge pockets inside the carcass](images/inside-hinges.png)
+
+ It also adds shelf pin holes, drawer slide pilot holes
 and back panel pilot holes, and booleans them into the walls (`bool holes in wall`).
 
 ### 5. Tooling and output
@@ -74,4 +86,4 @@ Toggles let you show or hide the holes, door pockets and slide pilot holes while
 ## Files
 
 - `parametric_cab_090825.gh`: the Grasshopper definition
-- `images/`: renders of the cabinet (embedded in the definition)
+- `images/`: canvas, renders of the cabinet and the web version

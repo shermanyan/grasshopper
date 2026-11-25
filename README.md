@@ -10,9 +10,9 @@ cut.
 
 [![Canoe mold generator](canoe-mold/images/canvas.png)](canoe-mold/)
 
-[![Parametric cabinet](parametric-cabinet/images/cabinet-drawers.png)](parametric-cabinet/)
+[![Parametric cabinet](parametric-cabinet/images/canvas.png)](parametric-cabinet/)
 
-The canoe generator also has a web version: Will Rollins turned it into
-[Canoe Studio](https://shopnerd.github.io/canoe-studio/), built with Claude.
+Both have web versions by Will Rollins: [Canoe Studio](https://shopnerd.github.io/canoe-studio/) (built with Claude)
+and [Cabinet Maker](https://will.100xbtr.com/cabinet/).
 
 Each folder has its own README with requirements, inputs and how each stage works.
