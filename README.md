@@ -3,6 +3,8 @@
 A parametric Grasshopper definition that designs a concrete canoe hull from three control curves and turns it into a
 stack of EPS foam mold blocks, ready to cut on a 4-axis CNC hotwire cutter. Built for the USC ASCE Concrete Canoe team.
 
+![Grasshopper definition](images/canvas.png)
+
 **Web version:** Will Rollins turned this script into a web-based version, built with Claude:
 [Canoe Studio](https://shopnerd.github.io/canoe-studio/). Same idea in the browser: drag the curves, see the hull and the
 mold blocks update, and export.
