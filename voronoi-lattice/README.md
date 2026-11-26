@@ -8,6 +8,12 @@ skins, thickened into smooth struts and meshed, ready to 3D print.
 ![Render](images/render.png)
 ![Printed lattice](images/printed.jpg)
 
+**Inspiration:** cow bone. Inside it is a spongy lattice of thin struts and open cells wrapped in a denser outer shell,
+which is the structure this script recreates (denser top and bottom skins around an open core).
+
+![Bone texture](images/bone-texture.jpg)
+![Cow bone](images/cow-bone.jpg)
+
 **Web version:** Will Rollins built a web version from this script:
 [Lattice Studio](https://will.100xbtr.com/lattice/). Fill any shape with a Voronoi foam, paint where it should be softer
 or firmer, and download the STL.
@@ -54,4 +60,4 @@ The canvas image is stitched together from zoomed-in screenshots so the whole de
 ## Files
 
 - `lattice_vornoi5.gh`: the Grasshopper definition
-- `images/`: render, printed part, canvas and the web version
+- `images/`: render, printed part, bone inspiration, canvas and the web version
